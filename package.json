@@ -4,7 +4,7 @@
   "description": "Starts express server to put json data into files.",
   "main": "server.js",
   "bin": {
-    "scrapero": "./bin.js"
+    "scrapero": "bin.js"
   },
   "scripts": {
     "start": "node server.js",
@@ -27,5 +27,13 @@
     "axios": "^0.21.1",
     "chai": "^4.2.0",
     "mocha": "^8.2.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/allnulled/scrapero.git"
+  },
+  "bugs": {
+    "url": "https://github.com/allnulled/scrapero/issues"
+  },
+  "homepage": "https://github.com/allnulled/scrapero#readme"
 }
