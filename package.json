@@ -1,0 +1,31 @@
+{
+  "name": "scrapero",
+  "version": "1.0.0",
+  "description": "Starts express server to put json data into files.",
+  "main": "server.js",
+  "bin": {
+    "scrapero": "./bin.js"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "mocha test.js"
+  },
+  "keywords": [
+    "scrap",
+    "server",
+    "ajax"
+  ],
+  "author": "allnulled",
+  "license": "WTFPL",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "yargs": "^16.2.0"
+  },
+  "devDependencies": {
+    "axios": "^0.21.1",
+    "chai": "^4.2.0",
+    "mocha": "^8.2.1"
+  }
+}
