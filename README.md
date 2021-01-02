@@ -29,7 +29,7 @@ $ scrapero --port 9898 --storage ./data
 ### Browser usage (client)
 
 1. Download [Greasemonkey](https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/) or [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=ca).
-2. Copy and paste script at [`/browser.js`](https://github.com/allnulled/scrapero/blob/main/browser.js) in a new xMonkey script.
+2. Copy and paste script at [`/browser.js`](https://raw.githubusercontent.com/allnulled/scrapero/main/browser.js) in a new xMonkey script.
 3. Add the scraps you want to carry on.
 4. Browse to your target URLs.
 5. Click the top button which says "Scrap it".
